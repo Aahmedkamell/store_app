@@ -4,7 +4,7 @@ import 'package:store_app/models/product_model.dart';
 
 class AllProductServices {
   Future<List<ProductModel>> getAllProducts() async {
-      Map<String, dynamic> data = await Api().get(url: 'https://dummyjson.com/products');
+      Map<String, dynamic> data = await Api().get(url: 'https://dummyjson.com/products', token: '');
 
   
 

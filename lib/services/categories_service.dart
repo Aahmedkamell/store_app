@@ -6,7 +6,7 @@ class CategoriesService {
     required String categoryName,
   }) async {
     Map<String, dynamic> data = await Api().get(
-      url: 'https://dummyjson.com/products/category/$categoryName',
+      url: 'https://dummyjson.com/products/category/$categoryName', token: '',
     );
 
     List<ProductModel> productList = [];
