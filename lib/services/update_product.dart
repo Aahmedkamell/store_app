@@ -5,10 +5,10 @@ class UpdateProductService {
   Future<ProductModel> updateProduct({
     required int id,
     required String title,
-    required double price,
+    required String price,
     required String desc,
     required String image,
-    required String category,
+    String? category,
   }) async {
     Map<String, dynamic> data = await Api().put(
       url: 'https://dummyjson.com/products/$id',
