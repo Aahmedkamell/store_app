@@ -84,10 +84,16 @@ flutter pub get
 flutter run
 ```
 
-## 📸 Screenshots
-Add project screenshots under:
-```text
-assets/screenshots/
+## ## 📱 Screenshots
+
+### Products
+
+![Products](assets/screenshots/products.png)
+
+### Update Product
+
+![Update Product](assets/screenshots/update_product.png)
+
 ```
 
 ## 🎯 Technical Highlights
