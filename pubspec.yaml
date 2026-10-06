@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   http: ^1.6.0
   font_awesome_flutter: ^11.0.0
+  modal_progress_hud_nsn: ^0.5.1
 
 dev_dependencies:
   flutter_test:

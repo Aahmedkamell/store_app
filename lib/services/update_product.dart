@@ -17,7 +17,7 @@ class UpdateProductService {
         'price': price,
         'description': desc,
         'image': image,
-        'category': category,
+        'category': category, 
       },
     );
     return ProductModel.fromJson(data);
