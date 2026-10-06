@@ -84,15 +84,13 @@ flutter pub get
 flutter run
 ```
 
-## ## 📱 Screenshots
+## 📱 Screenshots
 
 ### Products
-
-![Products](assets/screenshots/products.png)
+<img src="assets/screenshots/products.png" width="400">
 
 ### Update Product
-
-![Update Product](assets/screenshots/update_product.png)
+<img src="assets/screenshots/update_product.png" width="400">
 
 ```
 
